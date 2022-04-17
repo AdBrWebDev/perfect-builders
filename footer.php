@@ -1,10 +1,10 @@
 <footer id="contact" class="teal white-text text-center section scrollspy w-100">
             <h2>Contact</h2>
             <div class="row">
-                <div class="col s12 m6 l4 xl4">
+                <div class="col s12 m6 l4 xl4 my-auto" style="min-height: 170px">
                     <div><a href="#join-to-team" class="btn teal darken-1 btn-large waves-light waves-effect modal-trigger"><i class="material-icons">account_box</i> Join to team</a></div>
                 </div>
-                <div class="col s12 m6 l4 xl4">
+                <div class="col s12 m6 l4 xl4 my-auto" style="min-height: 170px">
                     <address>
                         <ul>
                             <li><i class="material-icons">place</i> Slovakia, Bratislava Južná 18</li>
@@ -13,12 +13,14 @@
                         </ul>
                     </address>
                 </div>
-                <div divclass="col s12 m6 l4 xl4">
+                <ul divclass="col s12 m6 l4 xl4 my-auto" style="min-height: 170px">
                     <div><h5>Social media</h5></li>
-                    <div><a class="white-text" target="_blank" href="https://www.facebook.com/"><i class="material-icons">facebook</i></a></div>
-                </div>
+                    <li><a type="button" class="white-text" target="_blank" href="https://www.facebook.com/"><i class="material-icons">facebook</i></a></li>
+</ul>
+                <div style="margin-top: 2%;" id="year"></div>
             </div>
+            
             <div>
-            <div style="margin-top: 2%;" id="year"></div>
+            
             </div>
         </footer>

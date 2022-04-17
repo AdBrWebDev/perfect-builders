@@ -1,8 +1,8 @@
 <?php include 'nav.php'; ?>
 
     <div class="row section scrollspy" style="top: 12%;" id="top-page">
-        <div class="col s12 m12 xl6 l12">
-            <img class="main-image" src="./images/main-image.jpg" width="100%" alt="best buildings">
+        <div class="col s12 m12 xl6 l12 w-100">
+            <img class="main-image w-100 right-0" src="./images/main-image.jpg" width="100%" alt="best buildings">
         </div>
         <div style="padding: 12%;" class="col s12 m12 xl6 l12 teal-text border-none center">
             <h2 id="main-text" style="font-family:Arial, Helvetica, sans-serif;">Buildings of <strong>future</strong></h2>

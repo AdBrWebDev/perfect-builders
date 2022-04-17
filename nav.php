@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./css/materialize.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
+<body class="w-100">
     <!-- navigation -->
-    <nav class="nav-wrapper teal z-depth-4" style="position: fixed; top: 0;">
+    <nav class="nav-wrapper teal z-depth-4 w-100" style="position: fixed; top: 0;">
         <a href="#top-page" style="margin-left: 5%;" class="brand-logo"><i id="builders-icon" class="large material-icons">account_balance</i> Perfect builds</a>
         <a href="#" class="sidenav-trigger" data-target="sidenav"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
