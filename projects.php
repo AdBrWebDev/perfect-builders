@@ -1,5 +1,5 @@
         <div id="projects" class="container section scrollspy center">
-            <h2 data-aos="fade-up" data-aos-duration="300">Naše stavby</h2>
+            <h2 data-aos="fade-up" data-aos-duration="300">Naše projekty</h2>
             <div class="row text-center modals">
                 <?php 
                     $stmt = $conn->prepare('SELECT * FROM buildings');

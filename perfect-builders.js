@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 let year = document.getElementById("year");
 let date = new Date();
 let getYear = date.getFullYear();
-year.innerHTML = `<i>&copy</i> From 2020 - ${getYear}`;
+year.innerHTML = `<i>&copy</i> 2020 - ${getYear}`;
 
 document.addEventListener('DOMContentLoaded', () => {
     let modal = document.querySelectorAll(".modal");

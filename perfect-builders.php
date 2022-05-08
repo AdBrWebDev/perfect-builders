@@ -35,7 +35,7 @@
         </div>
 
         <!-- slider -->
-        <div class="carousel container">
+        <div class="carousel container" style="cursor: pointer">
             <div class="carousel-item"><img src="./images/house1.jpg" alt="house1"></div>
             <div class="carousel-item"><img src="./images/house2.jpg" alt="house2"></div>
             <div class="carousel-item"><img src="./images/house3.jpg" alt="house3"></div>
@@ -47,37 +47,6 @@
         <?php include 'about-company.php'; ?>
         
         <?php include 'team.php' ?>
-
-        <div class="modal" id="mail-to" style="min-height: 86%;">
-            <div class="modal-content center">
-                <h2 id="mail-to-person"></h2>
-                <br>
-                <div class="row">
-                    <div class="col s6 m6 l6 xl6 input-field">
-                        <label for="to">To</label>
-                        <input type="text" id="to" disabled>
-                    </div>
-                    <div class="col s12 m12 l8 xl8 input-field">
-                        <label for="mail">Your mail</label>
-                        <input type="email" class="validate" id="mail" autocomplete="off">
-                    </div>
-                    <div class="col s12 m12 l8 xl8 input-field">
-                        <textarea type="email" class="materialize-textarea" id="" autocomplete="off"></textarea>
-                    </div>
-                    <div class="col s12 m12 l8 xl8">
-                        <div class="input-field file-field">
-                            <div class="btn teal white-text">
-                            <span>Upload file</span>
-                            <input type="file" multiple class="validate" id="biography" autocomplete="off">
-                            </div>
-                            <div class="file-path-wrapper">
-                                <input type="text" class="file-path validate">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </div>
 
         <?php include 'footer.php' ?>
 
@@ -121,7 +90,7 @@
                     </div>
                     <div class="input-field col s12">
                         <textarea id="textarea2" class="materialize-textarea" data-length="1200"></textarea>
-                        <label for="textarea2">Textarea</label>
+                        <label for="textarea2">Text správy</label>
                     </div>
                 </div>
                 <button class="btn teal btn-large waves-light waves-effect" name="submit" type="submit" value="submit"><i class="material-icons right">send</i>send</button>

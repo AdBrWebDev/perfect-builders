@@ -23,7 +23,7 @@
         <li><a href="#about">O nás</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Kontakt</a></li>
-        <li><a type="button" class="btn btn-danger"><i class="material-icons">perm_identity</i></a></li>
+        <li><a type="button" href="#login" class="btn teal waves-light waves-effect modal-trigger"><i class="material-icons">perm_identity</i></a></li>
         </ul>
     </nav>
 
@@ -33,3 +33,21 @@
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Kontakt</a></li>
     </ul>
+
+    <form method="POST" class="modal p-5 mt-5" id="login" style="margin-top: -3%">
+            <div class="modal-content center">
+                <h2>Prihlásenie</h2>
+                <br>
+                <div class="container mb-5">
+                    <div>
+                        <label for="name">E-mail</label>
+                        <input type="email" class="validate" id="name" name="firstname" autocomplete="off">
+                    </div>
+                    <div>
+                        <label for="surname">Heslo</label>
+                        <input type="password" class="validate" id="surname" name="surname" autocomplete="off">
+                    </div>
+                </div>
+                <button class="btn teal btn-large waves-light waves-effect mt-4" name="submit" type="submit">Prihlásiť <i class="material-icons">login</i></button>
+            </div>
+        </form>

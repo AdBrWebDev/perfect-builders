@@ -1,4 +1,4 @@
-<footer id="contact" class="teal white-text text-center section scrollspy w-100">
+<footer id="contact" class="teal white-text text-center section scrollspy w-100" data-aos="fade-up" data-aos-delay="300">
             <h2>Contact</h2>
             <div class="row">
                 <div class="col s12 m6 l4 xl4 my-auto" style="min-height: 170px">
