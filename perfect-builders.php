@@ -5,7 +5,7 @@
             <img class="main-image w-100 right-0" src="./images/main-image.jpg" width="100%" alt="best buildings">
         </div>
         <div style="padding: 12%;" class="col s12 m12 xl6 l12 teal-text border-none center">
-            <h2 id="main-text" style="font-family:Arial, Helvetica, sans-serif;">Buildings of <strong>future</strong></h2>
+            <h2 id="main-text" style="font-family:Arial, Helvetica, sans-serif;">Stavby budúcnosti</h2>
         </div>
     </div>
 
@@ -89,47 +89,39 @@
             $subject = "work";
             $phone = $_POST['phone'];
             $mail = $_POST['mailfrom'];
-            $file = $_POST['file'];
             $message = "Name: $name \nSurname: $surname \nMail from: $mail \nIncluded file: $file";
 
             mail($mailto, $subject, $message);
         }
         ?>
-        <form method="POST" class="modal" id="join-to-team" style="min-height: 86%;">
+        <form method="POST" class="modal p-5" id="join-to-team" style="margin-top: -3%">
             <div class="modal-content center">
-                <h2>Join to team</h2>
+                <h2>Napísať správu</h2>
                 <br>
-                <div class="row">
+                <div class="row container">
                     <div class="col s6 m6 l6 xl6 input-field">
-                        <label for="name">First name</label>
+                        <label for="name">Meno</label>
                         <input type="text" class="validate" id="name" name="firstname" autocomplete="off">
                     </div>
                     <div class="col s6 m6 l6 xl6 input-field">
-                        <label for="surname">First name</label>
+                        <label for="surname">Priezvisko</label>
                         <input type="text" class="validate" id="surname" name="surname" autocomplete="off">
                     </div>
-                    <div class="col s12 m12 l8 xl8 input-field">
-                        <label for="to">To</label>
+                    <div class="col s12 m12 l12 xl12 input-field">
+                        <label for="to">Príjemca</label>
                         <input type="text" class="validate" id="to" name="mailto" disabled value="perfectbuilders@builders.com" autocomplete="off">
                     </div>
-                    <div class="col s12 m12 l8 xl8 input-field">
-                        <label for="phone">Phone</label>
+                    <div class="col s12 m12 l12 xl12 input-field">
+                        <label for="phone">Telefón</label>
                         <input type="text" class="validate" id="phone" name="phone" autocomplete="off">
                     </div>
-                    <div class="col s12 m12 l8 xl8 input-field">
-                        <label for="mail">Your mail</label>
+                    <div class="col s12 m12 l12 xl12 input-field">
+                        <label for="mail">Váš e-mail</label>
                         <input type="email" class="validate" id="mail" name="mailfrom" autocomplete="off">
                     </div>
-                    <div class="col s12 m12 l8 xl8">
-                        <div class="input-field file-field">
-                            <div class="btn teal white-text">
-                            <span>Biography</span>
-                            <input type="file" multiple class="validate" id="biography" autocomplete="off">
-                            </div>
-                            <div class="file-path-wrapper">
-                                <input type="text" name="file" class="file-path validate" name="file">
-                            </div>
-                        </div>
+                    <div class="input-field col s12">
+                        <textarea id="textarea2" class="materialize-textarea" data-length="1200"></textarea>
+                        <label for="textarea2">Textarea</label>
                     </div>
                 </div>
                 <button class="btn teal btn-large waves-light waves-effect" name="submit" type="submit" value="submit"><i class="material-icons right">send</i>send</button>
@@ -140,5 +132,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous"></script>
     <script defer src="perfect-builders.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

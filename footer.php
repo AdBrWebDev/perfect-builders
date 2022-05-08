@@ -2,7 +2,7 @@
             <h2>Contact</h2>
             <div class="row">
                 <div class="col s12 m6 l4 xl4 my-auto" style="min-height: 170px">
-                    <div><a href="#join-to-team" class="btn teal darken-1 btn-large waves-light waves-effect modal-trigger"><i class="material-icons">account_box</i> Join to team</a></div>
+                    <div><a href="#join-to-team" class="btn teal darken-1 btn-large waves-light waves-effect modal-trigger"><i class="material-icons">send</i> Napísať správu</a></div>
                 </div>
                 <div class="col s12 m6 l4 xl4 my-auto" style="min-height: 170px">
                     <address>

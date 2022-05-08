@@ -43,5 +43,3 @@ openOrder.addEventListener('click', () => {
     let modal = document.getElementById("ordermodal");
     modal.style.display = "block";
 });
-
-AOS.init();
