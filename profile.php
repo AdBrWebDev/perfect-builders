@@ -8,7 +8,7 @@
         <li><a href="#about">O nás</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Kontakt</a></li>
-        <li><a type="button" href="./login.php" class="btn teal waves-light waves-effect"><i class="material-icons">perm_identity</i></a></li>
+        <li><a type="button" href="./logout.php" class="btn teal waves-light waves-effect"><i class="material-icons">logout</i></a></li>
         </ul>
     </nav>
 
@@ -17,5 +17,7 @@
         <li><a href="#about">O nás</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Kontakt</a></li>
-        <li><a href="./login.php">Prihlásenie <i class="material-icons right">perm_identity</i></a></li>
+        <li><a href="./logout.php">Odhlásenie <i class="material-icons right">logout</i></a></li>
     </ul>
+
+    <script src="perfect-builders.js"></script>

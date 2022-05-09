@@ -10,7 +10,7 @@
             ?>
                 <div class="carousel-item card center p-3 shadow-lg" style="cursor: pointer">
                         <div class="card-image">
-                            <img src="./images/<?php echo $row['image']; ?>" alt="<?php echo $row['name']; ?>">
+                            <img src="./images/<?php echo ($row['image'] == '') ? "avatar.jpg" : $row['image']; ?>" alt="<?php echo $row['name']; ?>">
                             <div class="card-content">
                                 <br>
                                 <name><h6><?php echo $row['name']; echo " "; echo $row['surname']; ?></h6></name>
